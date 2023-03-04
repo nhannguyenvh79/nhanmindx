@@ -1,0 +1,131 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+/* hình nền */
+body{
+    background-image: url(./Pics/background.jpg);
+    background-size:cover;
+    padding: 0%;
+    margin: 0;
+    
+}
+
+
+/* heading */
+h1{
+    color: rgb(249, 251, 252); font-size: 60px; text-align: center; 
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(15, 15, 15, 0.7); 
+    height: 90px;
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 60px;
+    margin: 0;
+}
+
+/* footer với 3 icon contact */
+#bottom{
+   background-color: black;
+   opacity: 0.7;
+   height: 110px;
+   /* chỉnh iconimg */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* chỉnh vị trí bottom */
+   position: absolute;
+   bottom: 0px;
+   width: 100%;  
+}
+
+/* chỉnh style cho các địa điểm */
+ul{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 30px;
+    text-align: left;
+    padding-top: 30px;
+    
+}
+
+.city{
+    position: relative;
+    font-size: 50px;
+    display:flex;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 100px 400px;
+}
+
+#ha-noi{
+    color:white;
+    background-color: rgba(91, 170, 170, 0.6);
+    width:40%;
+    text-align: center;
+    border-radius: 10px;
+    height: 400px;
+}
+
+
+#ho-chi-minh{
+    color:white;
+    background-color: rgba(116, 129, 55, 0.6);
+    width:40%;
+    text-align: center;
+    border-radius: 10px;
+    height: 400px;
+}
+
+/* Tạo hover */
+#ha-noi:hover{
+    color:rgb(255, 255, 255);
+    background-color: rgba(91, 170, 170, 0.8);
+    width:40%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+#ha-noi ul li a:hover {
+    background-color: rgba(24, 37, 37, 0.8);
+    padding:  30px 10px;
+    transition: 0.5s;
+}
+
+#ho-chi-minh:hover{
+    color:white;
+    background-color: rgba(116, 129, 55, 0.8);
+    width:40%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#ho-chi-minh ul li a:hover {
+    background-color: rgba(80, 87, 23, 0.8);
+    padding:  30px 10px;
+    transition: 0.5s;
+}
+
+#bottom:hover{
+    background-color: black;
+    opacity: 1;
+    height: 110px;
+    /* chỉnh iconimg */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* chỉnh vị trí bottom */
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    transition: 1s;
+}
+

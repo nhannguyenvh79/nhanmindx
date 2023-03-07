@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+}
+
+h1{
+    color: rgba(255,255,255,255);
+    background-color: rgba(49,57,77,255);
+    margin-top: 0;
+    font-size: 200%;
+    padding: 5% 2.5% 2.5% 2.5%;
+    box-sizing: border-box;
+    margin-bottom: 0;
+}
+
+.background{
+    padding: 1%;
+    display: flex;
+    justify-content:space-between;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: #dae8fc;
+    border: 1px solid rgba(141,168,206,255);
+    margin-left: 1%;
+    padding: 1%;
+    width: 15%;
+    text-align: center;
+}
+.copyright{
+    margin-top: 90%;
+}
+
+.container1 .menu{
+    display: inline-block;
+    background-color: #fff2cc;
+    border: 1px solid #d7c687;
+    margin-bottom: 5%;
+    font-size: 200%;
+    position: relative;
+    padding:3%;
+
+}
+
+.container1 .menu .sub-menu {
+    display: none;
+    flex-direction: column;
+    text-decoration: none;
+    list-style: none;
+    position: absolute;
+    margin: 0;
+    left: 120%;
+    top: 0%;
+    background: #ffff;   
+    padding: 0;
+    width: 130%;
+    box-shadow: 2px 1.5px 1.5px 1.5px #727270;
+
+}
+
+.container1 .menu .sub-menu li{
+    border: 1px solid #5a5a58;
+    width: 100%;
+    height: 2%;
+    padding: 1% 0%;
+}
+
+.container1 #users:hover #sub-users{
+    display: block;
+    transition: 1s ;
+}
+
+
+
+/* menu2 */
+.container2{
+    display: flex;
+    box-sizing: border-box;
+    background-color: #dae8fc;
+    border: 1px solid rgba(141,168,206,255);
+    padding: 1%;
+    text-align: center;
+    width: 40%;
+    margin-right: 5%;
+    margin-top: 3%;
+    height: fit-content;
+    justify-content: center;
+    font-size: 200%;
+}
+
+
+.container2 .menu{
+    display: inline-block;
+    background-color: #fff2cc;
+    border: 1px solid #d7c687;
+    width: 100%;
+}
+.container2 .menu .sub-menu{
+    display: none;
+    flex-direction: column;
+    list-style: none;
+    position: absolute;
+    margin: 0;
+    background: #ffff;   
+    padding: 0;
+    box-shadow: 2px 1.5px 1.5px 1.5px #727270;
+    width: 14%;
+    margin-top: 2%;
+}
+.container2 .menu .sub-menu li{
+    border: 1px solid #5a5a58;
+    width: 100%;
+    height: 2%;
+    padding: 1% 0%;
+}
+
+#users2:hover #sub-users2{
+    display: block;
+}
